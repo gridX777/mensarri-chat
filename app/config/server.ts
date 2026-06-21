@@ -231,7 +231,7 @@ export const getServerSideConfig = () => {
     iflytekApiSecret: process.env.IFLYTEK_API_SECRET,
 
     isDeepSeek,
-    deepseekUrl: process.env.DEEPSEEK_URL,
+    deepseekUrl: "https://api.deepseek.com",
     deepseekApiKey: getApiKey(process.env.DEEPSEEK_API_KEY),
 
     isXAI,
